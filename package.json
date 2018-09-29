@@ -1,0 +1,31 @@
+{
+  "name": "short-unique-string",
+  "version": "1.0.0",
+  "description": "Generate short unique id string locally.",
+  "main": "src/index.js",
+  "scripts": {
+    "ci": "nyc npm test && nyc report --reporter=lcov",
+    "test": "mocha tests/index.js"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  },
+  "keywords": [
+    "uniqueid",
+    "short-id",
+    "short-unique-string"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hustcc/short-unique-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcc/short-unique-string/issues"
+  },
+  "homepage": "https://github.com/hustcc/short-unique-string#readme",
+  "author": "hustcc",
+  "license": "MIT"
+}
